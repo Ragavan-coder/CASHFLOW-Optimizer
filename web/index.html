@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Cash Flow Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Financial Cash Flow Optimizer</h1>
+            <p class="subtitle">Advanced DSA Engine for Settlement Minimization</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <h2>Net Balances</h2>
+                <div id="balancesList" class="list-container">
+                    <!-- Loaded via JS -->
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Original Debts</h2>
+                <div id="debtsList" class="list-container">
+                    <!-- Loaded via JS -->
+                </div>
+            </div>
+
+            <div class="card col-span-2">
+                <h2>Optimized Settlement Plan</h2>
+                <div id="settlementList" class="list-container">
+                    <!-- Loaded via JS -->
+                </div>
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3>Original Tx</h3>
+                        <p id="originalTx">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>Optimized Tx</h3>
+                        <p id="optimizedTx">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
